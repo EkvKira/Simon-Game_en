@@ -1,0 +1,42 @@
+body {
+    font-family: 'Concert One', sans-serif;
+}
+
+#cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.color-element {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    text-align: center;
+    font-size: 16px;
+    text-decoration: none;
+    color: inherit;
+}
+ 
+.container {
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.game-over {
+    background-color: red;
+    opacity: 0.9;
+}
+
+.pressed {
+    box-shadow: 0 0 30px white;
+    background-color: grey;
+}
+  
